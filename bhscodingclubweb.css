@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+nav {
+    background-color: #050a30;
+    height: 75px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 10px;
+    color: white;
+}
+#hypers {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+#hypers h2 {
+    margin-left: 40px;
+}
+nav img {
+    width: 50px;
+    margin-left: 10px;
+}
+#hero {
+    position: relative;
+    text-align: center;
+    
+}
+#hero img {
+    width: 100%;
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+    display: block;
+    height: auto;
+}
+#hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,200,0.5);
+}
+#hero h1 {
+    position: absolute;
+    top: 35%;
+   width: 100%;
+   text-align: center;
+   color: white;
+}
+#hero button {
+    position: absolute;
+    top: 50%;
+}
+#hero div {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+#aboutus div {
+    width: 100%;
+    padding: 50px 0px;
+    text-align: center;
+    line-height: 1.5;
+    background-color: #5cb6f9;
+    color: white;
+}
+#joinus {
+    width: 100%;
+    padding: 50px 0px;
+    text-align: center;
+}
